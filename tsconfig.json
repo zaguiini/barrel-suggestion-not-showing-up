@@ -1,19 +1,8 @@
 {
   "compilerOptions": {
-    "plugins": [
-      {
-        "transform": "@typescript-virtual-barrel/compiler-plugin",
-        "transformProgram": true,
-        "shouldTransformImports": true
-      },
-      {
-        "name": "@typescript-virtual-barrel/language-service-plugin"
-      },
-    ],
-    "importHelpers": true,
     /* Language and Environment */
     "target": "ES5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     /* Modules */
     "module": "CommonJS",                                /* Specify what module code is generated. */
     "resolveJsonModule": true,                        /* Enable importing .json files. */
